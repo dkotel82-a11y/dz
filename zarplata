@@ -1,0 +1,7 @@
+class employee:
+    def __init__(self, name, salary,position):
+        self.name = name
+        self.salary = salary
+        self.position = position
+    def get_salary_info(self,name,salary):
+        print(f'{name} zarplata yogo  {salary}')
