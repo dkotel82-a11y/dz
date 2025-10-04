@@ -1,0 +1,9 @@
+class product:
+    def __init__(self, name, price, quantity):
+        self.name = name
+        self.price = price
+        self.quantity = 1
+    def calculate_price(self):
+        return self.price * self.quantity
+    def display_info(self):
+        print(f"Name: {self.name}{self.price}{self.quantity}")
