@@ -1,0 +1,18 @@
+class bankAccount:
+accountNumber = 4111
+balance = 100
+amount = 42
+def init(self, accountNumber, balance, amount):
+self.accountNumber = accountNumber
+def deposit(self, amount):
+self.balance += amount
+return self.balance
+def withdraw(self, amount):
+if amount < 0:
+return False
+if amount > self.balance:
+return False
+else:
+self.balance -= amount
+return self.balance
+print('znato')
