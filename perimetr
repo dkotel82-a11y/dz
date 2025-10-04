@@ -1,0 +1,11 @@
+class rectangle:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+    def plosha(self, width, height,ploha):
+        ploha = width * height
+        return ploha
+    def perimeter(self):
+        perimeter = self.width + self.height
+        perimeter = 2 * perimeter
+        return perimeter
